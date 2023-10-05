@@ -3051,7 +3051,7 @@ local ui = {} do
         if (uis.Value == 0) then
             ui:Destroy()
         end
-    end, false, 999999, Enum.KeyCode.End)
+    end, false, 999999, Enum.KeyCode.F12)
     -- Auto collection
     task.delay(5, function() 
         if (ui_Menus ~= nil and #ui_Menus == 0) then
